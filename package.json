@@ -1,0 +1,40 @@
+{
+  "name": "react-hlm",
+  "version": "0.0.1",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "repository": {
+    "url": "https://github.com/Y0KUDA/react-hlm.git",
+    "type": "git"
+  },
+  "author": "yokuda<ykd.engineer@gmail.com>",
+  "license": "WTFPL",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.3",
+    "@types/styled-components": "^4.1.12",
+    "concurrently": "^4.1.0",
+    "prepend-file": "^1.3.1",
+    "rollup": "^1.0.0",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-typescript2": "^0.20.1",
+    "ts-node": "^7.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "styled-components": "^4.1.3"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ]
+}

@@ -27,7 +27,7 @@ interface BannerProps{
   waveSpeed?:number,
   colorSpeed?:number,
   style?:any,
-  spring?:string,//none, normal, pop
+  spring?:"none"|"normal"|"pop",
 }
 ```
 

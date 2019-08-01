@@ -62,6 +62,7 @@ export default class HLM {
 
     useEffect(() => {
       setElementHeight(ref.current.offsetHeight);
+      window.addEventListener('resize', ()=>setElementHeight(ref.current.offsetHeight));
       const id = setInterval(() => {
         updateTime(t => t + 50);
       }, 50);
@@ -146,6 +147,7 @@ export default class HLM {
 
     useEffect(() => {
       setElementHeight(ref.current.offsetHeight);
+      window.addEventListener('resize', ()=>setElementHeight(ref.current.offsetHeight));
       const id = setInterval(() => {
         updateTime(t => t + 50);
       }, 50);
@@ -197,6 +199,7 @@ export default class HLM {
 
     useEffect(() => {
       setElementHeight(ref.current.offsetHeight);
+      window.addEventListener('resize', ()=>setElementHeight(ref.current.offsetHeight));
       const id = setInterval(() => {
         updateTime(t => t + 50);
       }, 50);

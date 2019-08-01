@@ -1,3 +1,6 @@
 node_modules
 dist
 .rpt2_cache
+demo/node_modules
+demo/build
+demo/src/react-hlm

@@ -16,7 +16,12 @@ export default [
     ],
     output: [
       { file: pkg.main, format: "cjs" },
-      { file: pkg.module, format: "es" }
+      { file: pkg.module, format: "es" },
+      {
+        file: "demo/src/react-hlm/index.js",
+        format: "es",
+        banner: "/* eslint-disable */"
+      }
     ]
   }
 ];

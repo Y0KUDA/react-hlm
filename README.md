@@ -2,7 +2,7 @@
 react-hlm is a react component provides features like the banner.  
 
 ## Demo
-https://y0kuda.github.io/react-hlm  
+https://y0kuda.github.io/react-hlm/index.html  
 source code : https://github.com/Y0KUDA/react-hlm/blob/master/demo/src/index.tsx
 
 ## Components

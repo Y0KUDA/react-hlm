@@ -3,7 +3,7 @@
   "description": "A awesome react component provides awesome banners.",
   "homepage": "https://github.com/Y0KUDA/react-hlm",
   "private" : false,
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "repository": {
